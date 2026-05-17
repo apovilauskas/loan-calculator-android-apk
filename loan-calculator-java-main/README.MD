@@ -1,19 +1,27 @@
-# Java Loan Calculator
+# Android Loan Calculator
 
-A JavaFX-based loan calculator supporting **annuity** and **linear** repayment methods. Provides detailed monthly breakdowns, CSV export, and comparative graphs.
+This is an Android application designed to calculate and manage loan repayment schedules. Supports both annuity and linear repayment methods, offering detailed monthly tracking and data export capabilities.
 
-## Usage
+## Features
 
-1. Launch the application.
-2. Enter loan details: amount, interest rate, and term (years and months).
-3. Select repayment type: Annuity or Linear.
-4. Additional features: 
-  - Select starting date (default is today).
-  - Filter results by date.
-  - Grace period implementation with chosen interest and extra term.
-5. Click **Calculate** to view the breakdown
-  - Calculates total amount to pay and total interest.
-  - Displays month-by-month breakdown: payment, interest portion, and remaining balance.
-6. Optional:
-  - Click **Download** to save the schedule in CSV format.
-  - Click **Graph** to compare repayment methods visually.
+* **Dual Repayment Methods:** Choose between Annuity and Linear calculation options.
+* **Flexible Term Configurations:** Input loan amount, annual interest rate, and duration (years and months).
+* **Grace Periods:** Apply a deferral period with customized interest calculations and extended terms.
+* **Date Filtering:** Set a specific starting date and filter repayment schedules.
+* **Data Export:** Download and save the detailed monthly breakdown schedules locally in CSV format.
+
+## Usage Instructions
+
+
+1. **Download via ADB:** Use the command ``./gradlew installDebug``
+1. **Launch the Application:** Open the app on your Android device.
+1. **Enter Loan Details:** Input the total loan amount, annual interest rate, and full term length (years and months).
+1. **Select Repayment Type:** Choose either **Annuity** or **Linear** calculation.
+1. **Configure Advanced Settings (Optional):**
+   * Select a custom starting date (defaults to the current date).
+   * Define specific date filters to narrow down the visible schedule.
+   * Configure a deferral/grace period along with its respective interest handling and extra term configurations.
+1. **Generate Schedule:** Tap the **Calculate** button to view the complete schedule analysis:
+   * View the comprehensive total amount to pay and total interest accumulated over the life of the loan.
+   * Browse through an interactive, month-by-month schedule displaying individual payment totals, interest portions, and the remaining principle balance.
+1. **Export Results:** Tap **Download** to export and save the generated repayment schedule as a CSV file.
