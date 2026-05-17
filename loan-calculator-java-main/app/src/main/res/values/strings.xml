@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Loan Calculator</string>
+    <string name="loan_amount_eur">Loan amount (EUR)</string>
+    <string name="amount_hint">amount</string>
+    <string name="loan_term">Loan term (years, months)</string>
+    <string name="years_hint">years</string>
+    <string name="months_hint">months</string>
+    <string name="yearly_interest">Yearly interest (%)</string>
+    <string name="percent_hint">percent (%)</string>
+    <string name="payment_type">Payment type</string>
+    <string name="annuity">annuity</string>
+    <string name="linear">linear</string>
+    <string name="start_date">Start date</string>
+    <string name="filter_dates">Filter dates (optional)</string>
+    <string name="filter_start">Filter start</string>
+    <string name="filter_end">Filter end</string>
+    <string name="payment_deferral">Payment deferral (optional)</string>
+    <string name="deferral_start">Deferral start</string>
+    <string name="calculate">Calculate</string>
+    <string name="download">Download</string>
+    <string name="header_date">Date</string>
+    <string name="header_payment">Payment</string>
+    <string name="header_principal">Principal</string>
+    <string name="header_interest">Interest</string>
+    <string name="header_remaining">Remaining</string>
+</resources>
